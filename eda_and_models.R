@@ -11,11 +11,12 @@ library(OpenStreetMap)
 # library(osmextract)
 library(caret)
 
-setwd('~/PycharmProjects/covid_vaccinare/')
+# This works in RStudio
+setwd(here::here())
 
-data <- fread('vacc_vote_age_ed_rel_data.csv')
+data <- fread('data/vacc_vote_age_ed_rel_data.csv')
 
-vacc_centers <- fread('centre_covid.csv')
+vacc_centers <- fread('data/centre_covid.csv')
 
 
 #########################
