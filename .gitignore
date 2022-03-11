@@ -133,3 +133,5 @@ dmypy.json
 cache/
 geckodriver.log
 __pycache__/
+.RData
+.Rhistory
